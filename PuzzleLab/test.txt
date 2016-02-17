@@ -1,0 +1,10 @@
+apple
+banana
+cantelope
+durian
+eggplant
+fig
+grape
+honeydew
+ita
+jujube
