@@ -1,10 +1,15 @@
-import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 
 import org.junit.Test;
 
+/**Test class for PathFinder object. 
+ * The puzzle used in these tests is the one in Mike's example
+ * on the lab write-up
+ * @author DaShzun
+ *
+ */
 public class TestPathFinder {
 
 	//working
@@ -126,7 +131,7 @@ public class TestPathFinder {
 	
 	//works
 	@Test
-	public void testPathFinders() {
+	public void testPathFinder() {
 		//example puzzle
 		String[][] puzzle = new String[3][3];
 		//row 1
@@ -141,9 +146,6 @@ public class TestPathFinder {
 		puzzle[2][0] = "F";
 		puzzle[2][1] = "S";
 		puzzle[2][2] = "E";
-		//keep track of start place
-		int row = 0;
-		int col = 2;
 		PathFinder pathy = new PathFinder(puzzle);
 		ArrayList<String> mikesWords = pathy.findWordsStarter(6);
 		for(String word: mikesWords){ 	

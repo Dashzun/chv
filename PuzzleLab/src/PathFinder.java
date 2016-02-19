@@ -25,9 +25,10 @@ public class PathFinder {
 
 	
 	/**
-	 * The findWord starter, this takes care of the empty base used Set
-	 * @param m
-	 * @return
+	 * The findWord starter, this method is the method that should
+	 * be called by other objects.
+	 * @param m, the length of the words s
+	 * @return returnList, an arraylist of all words size m
 	 */
 	public ArrayList<String> findWordsStarter(int m){
 		//for the first call we want an empty stack for the parameter
@@ -98,7 +99,7 @@ public class PathFinder {
 
 	/**
 	 * Generate all the neighbors at a point. This is a helper function
-	 * for the find path functin
+	 * for the find path function
 	 * @param row, column values
 	 */
 	public ArrayList<Tuple> generateNeighbors(int row, int col){
