@@ -10,7 +10,7 @@ public class Puzzle {
 	 private String[][] puzzle;
 	 
 	
-	public Puzzle(int n,int m){
+	public Puzzle(int n){
 		//Create the puzzle
 				puzzle = new String[n][n];
 				for(int x=0; x < puzzle.length;x++){
@@ -29,7 +29,8 @@ public class Puzzle {
 		Random r = new Random();
 		char c = (char)(r.nextInt(26) + 'a');
 		Character.toString(c);
-		String letter = Character.toString(c);;
+		String letter = Character.toString(c);
+		System.out.println(letter);
 		return letter;
 		
 	}
