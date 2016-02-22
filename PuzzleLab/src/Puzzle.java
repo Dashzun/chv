@@ -30,7 +30,6 @@ public class Puzzle {
 		char c = (char)(r.nextInt(26) + 'a');
 		Character.toString(c);
 		String letter = Character.toString(c);
-		System.out.println(letter);
 		return letter;
 		
 	}

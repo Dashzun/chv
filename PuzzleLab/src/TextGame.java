@@ -21,8 +21,8 @@ import javax.swing.SpinnerNumberModel;
 
 public class TextGame {
 
-	private JFrame frame;
-	
+	private JFrame frame; //Main Frame
+	// Buttons used to display the letters in a grid (assuming will need to select each letter in the future)
 	private JButton btn1;
 	private JButton btn2;
 	private JButton btn3;
@@ -59,10 +59,10 @@ public class TextGame {
 	private JButton btn34;
 	private JButton btn35;
 	private JButton btn36;
-	private JComboBox comboBoxN;
-	private JButton btnCreateGame;
-	private JLabel labelMValue;
-	private JList list;
+	private JComboBox comboBoxN; // Combo Box used to select the N
+	private JButton btnCreateGame; // Button used to start the game
+	private JLabel labelMValue; // Label to display value of M
+	private JList list;// JList of Possible Words
 	/**
 	 * Launch the application.
 	 */
